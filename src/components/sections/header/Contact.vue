@@ -8,11 +8,11 @@
       <div class="right-box">
         <div>
           <font-awesome-icon :icon="['fa', 'phone']" />
-          <span>+1 (305) 1234-5678</span>
+          <a href="#">+1(305) 1234-5678</a>
         </div>
         <div>
           <font-awesome-icon :icon="['fa', 'envelope']" />
-          <span>hello@example.com</span>
+          <a href="#">hello@example.com</a>
         </div>
         <div class="socials">
           <font-awesome-icon :icon="['fab', 'facebook-f']"/>
@@ -60,15 +60,16 @@ export default {
         .socials svg {
           margin: 0 1rem;
         }
+
+        a {
+          color: $silver;
+        }
       }
     }
 
     svg {
       margin: 0 .3rem 0 .5rem;
     }
-
-
-
   }
 
 </style>

@@ -1,21 +1,22 @@
 <template>
   <header>
-    <Contacts/>
+    <Contact/>
+    <Hero/>
   </header>
 </template>
 
 // 00000000 SCRIPT
 <script>
   // import
-  import Contacts from './../sections/header/Contacts.vue';
-  
-  
+  import Contact from '../sections/header/Contact.vue';
+  import Hero from '../sections/header/hero/Hero.vue';
 
   // export
   export default {
     name: 'Header',
     components: {
-      Contacts,
+      Contact,
+      Hero
     }
   }
 </script>
