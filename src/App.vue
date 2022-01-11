@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-
+    <Header/>
+    <Main/>
+    <Footer/>
   </div>
 </template>
 
@@ -12,7 +14,6 @@
   import Main from './components/macro/Main.vue';
   import Footer from './components/macro/Footer.vue';
 
-
   // export
   export default {
     name: 'App',
@@ -23,7 +24,7 @@
     },
     data(){
       return {
-        GlobalData
+        GlobalData,
       }
     },
   }
@@ -31,8 +32,6 @@
 
 // 000000000 STYLE 
 <style lang="scss">
-  // import variables
-  @import './assets/global/global-variables.scss';
 
   // commons
   * {
