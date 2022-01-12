@@ -37,6 +37,10 @@ export default {
 
   margin: 0;
   padding: 0;
+
+  &::selection {
+    background-color: $mark;
+  }
 }
 
 section.padding {
