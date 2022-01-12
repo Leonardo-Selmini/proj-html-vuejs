@@ -10,6 +10,7 @@ import { faClock } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 // brand icons library
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
@@ -24,6 +25,7 @@ library.add(faClock);
 library.add(faPhone);
 library.add(faEnvelope);
 library.add(faUser);
+library.add(faPlay);
 
 // brand
 library.add(faFacebookF);

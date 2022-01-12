@@ -15,9 +15,9 @@
           <a href="#">hello@example.com</a>
         </div>
         <div class="socials">
-          <font-awesome-icon :icon="['fab', 'facebook-f']"/>
-          <font-awesome-icon :icon="['fab', 'twitter']"/>
-          <font-awesome-icon :icon="['fab', 'linkedin-in']"/>
+          <font-awesome-icon :icon="['fab', 'facebook-f']" />
+          <font-awesome-icon :icon="['fab', 'twitter']" />
+          <font-awesome-icon :icon="['fab', 'linkedin-in']" />
         </div>
       </div>
     </div>
@@ -26,50 +26,49 @@
 
 <script>
 export default {
-  name: 'Contacts'
-}
+  name: "Contacts",
+};
 </script>
 
 <style lang="scss" scoped>
 // import variables
-@import './../../../assets/global/global-variables.scss';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+@import "./../../../assets/global/global-variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
 
-  section {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+section {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
 
-    background-color: $smalt;
-    color: $silver;
+  background-color: $smalt;
+  color: $silver;
 
-    .container {
-      width: 75%;
-      
+  .container {
+    width: 75%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    padding: 0.8rem 2rem;
+
+    .right-box {
+      width: 45%;
+
       display: flex;
       justify-content: space-between;
 
-      margin: 0 auto;
-      padding: .8rem 2rem;
-
-      .right-box {
-        width: 45%;
-
-        display: flex;
-        justify-content: space-between;
-
-        .socials svg {
-          margin: 0 1rem;
-        }
-
-        a {
-          color: $silver;
-        }
+      .socials svg {
+        margin: 0 1rem;
       }
-    }
 
-    svg {
-      margin: 0 .3rem 0 .5rem;
+      a {
+        color: $silver;
+      }
     }
   }
 
+  svg {
+    margin: 0 0.3rem 0 0.5rem;
+  }
+}
 </style>

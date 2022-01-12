@@ -1,40 +1,40 @@
 <template>
   <section id="hero">
-    <Navbar/>
-    <Presentation/>
+    <Navbar />
+    <Presentation />
   </section>
 </template>
 
 <script>
 // import
-import Navbar from './Navbar.vue';
-import Presentation from './Presentation.vue';
+import Navbar from "./Navbar.vue";
+import Presentation from "./Presentation.vue";
 
 // export
 export default {
-  name: 'Hero',
+  name: "Hero",
   components: {
     Navbar,
-    Presentation
-  }
-}
+    Presentation,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-  #hero {
-    position: relative;
-    height: 46rem;
+#hero {
+  position: relative;
+  height: 46rem;
 
-    &::before {
-      content: "";
-      position: absolute;
-      inset: 0;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
 
-      background-image: url("./../../../../assets/images/bg-2.jpg");
-      background-size: 112%;
-      background-position-x: -8rem;
-      background-repeat: no-repeat;
-      filter: brightness(.7);
-    }
+    background-image: url("./../../../../assets/images/bg-2.jpg");
+    background-size: 112%;
+    background-position-x: -8rem;
+    background-repeat: no-repeat;
+    filter: brightness(0.7);
   }
+}
 </style>

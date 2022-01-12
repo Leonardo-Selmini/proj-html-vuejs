@@ -39,6 +39,12 @@ export default {
   padding: 0;
 }
 
+section.padding {
+  text-align: center;
+
+  padding: 6.8rem 0;
+}
+
 h2 {
   font-size: 2.4rem;
   color: $wood;
