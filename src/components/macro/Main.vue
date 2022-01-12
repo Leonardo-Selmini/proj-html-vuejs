@@ -2,6 +2,7 @@
   <main>
     <Intro/>
     <Numbers/>
+    <Services/>
   </main>
 </template>
 
@@ -10,6 +11,7 @@
 // import
 import Intro from './../sections/main/Intro.vue';
 import Numbers from './../sections/main/Numbers.vue';
+import Services from './../sections/main/Services.vue';
 
 // export
 export default {
@@ -17,6 +19,7 @@ export default {
   components: {
     Intro,
     Numbers,
+    Services,
   }
 };
 </script>

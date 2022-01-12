@@ -38,6 +38,8 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: -10rem;
+
+  text-align: center;
   
   color: $white;
 
@@ -50,7 +52,7 @@ section {
   }
 
   .box {
-    width: 80%;
+    width: 70%;
 
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;

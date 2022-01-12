@@ -26,6 +26,8 @@ export default {
 @import './../../../assets/global/global-variables.scss';
 
 section {
+  text-align: center;
+
   .box {
     width: 44%;
 
@@ -42,6 +44,10 @@ section {
 
     margin: 0 auto;
     border-radius: 4px;
+
+    &:hover img {
+      opacity: 1;
+    }
 
     &:hover svg {
       color: $fountain;

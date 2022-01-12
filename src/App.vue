@@ -40,8 +40,6 @@ export default {
 }
 
 section.padding {
-  text-align: center;
-
   padding: 6.8rem 0;
 }
 
@@ -97,6 +95,7 @@ button {
     color: $white;
 
     border: 1px solid transparent;
+    border-radius: 2px;
 
     transition: background-color 0.2s linear;
 
