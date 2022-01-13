@@ -3,6 +3,7 @@
     <NewsLetter/>
     <Form/>
     <Link/>
+    <Closure/>
   </footer>
 </template>
 
@@ -12,6 +13,7 @@
   import NewsLetter from './../sections/footer/NewsLetter.vue';
   import Form from './../sections/footer/Form.vue';
   import Link from './../sections/footer/Link.vue';
+  import Closure from './../sections/footer/Closure.vue';
 
   // export
   export default {
@@ -19,7 +21,8 @@
     components: {
       NewsLetter,
       Form,
-      Link
+      Link,
+      Closure
     }
   }
 </script>
