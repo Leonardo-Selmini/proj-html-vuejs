@@ -37,7 +37,7 @@ export default Vue.observable({
     {
       name: 'Services',
       links: [
-        'audit & Assurance',
+        'Audit & Assurance',
         'Financial Advisory',
         'Analytics M&A',
         'Middle Marketing',

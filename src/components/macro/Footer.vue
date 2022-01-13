@@ -2,6 +2,7 @@
   <footer>
     <NewsLetter/>
     <Form/>
+    <Link/>
   </footer>
 </template>
 
@@ -10,6 +11,7 @@
   // import
   import NewsLetter from './../sections/footer/NewsLetter.vue';
   import Form from './../sections/footer/Form.vue';
+  import Link from './../sections/footer/Link.vue';
 
   // export
   export default {
@@ -17,6 +19,7 @@
     components: {
       NewsLetter,
       Form,
+      Link
     }
   }
 </script>

@@ -18,6 +18,7 @@ import { faChartBar } from '@fortawesome/free-solid-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 // brand icons library
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
@@ -42,6 +43,7 @@ library.add(faGlobe);
 library.add(faInbox);
 library.add(faQuoteRight);
 library.add(faMapMarkerAlt);
+library.add(faChevronRight);
 
 // brand
 library.add(faFacebookF);
