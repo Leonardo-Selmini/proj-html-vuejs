@@ -20,8 +20,3 @@ export default {
   },
 };
 </script>
-
-
-// 00000000 STYLE
-<style lang="scss" scoped>
-</style>

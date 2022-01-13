@@ -119,4 +119,33 @@ button {
     }
   }
 }
+
+.circle {
+  height: 2.2rem;
+  aspect-ratio: 1;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  background-color: $mark;
+
+  margin-right: .4rem;
+  border-radius: 50%;
+
+  transition: background-color .2s linear;
+
+  &:hover {
+    background-color: $trade;
+  }
+
+  svg {
+    font-size: 1rem;
+
+    color: $lagoon;
+  }
+}
+
 </style>

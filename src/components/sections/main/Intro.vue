@@ -32,6 +32,10 @@ section {
     width: 44%;
 
     margin: 0 auto;
+
+    p {
+      margin-bottom: 2.6rem;
+    }
   }
 
   .img-container {
