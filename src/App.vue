@@ -77,11 +77,9 @@ span.marked {
 
 p.paragraph {
   line-height: 1.4rem;
-  font-size: .8rem;
+  font-size: 1rem;
 
   color: $silver;
-
-  margin-bottom: 2.6rem;
 }
 
 button {
